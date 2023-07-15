@@ -1,0 +1,29 @@
+/* comments in CSS */
+
+/* CSS SELECTORS */
+/* 1. UNIVERSAL SELECTORS */
+
+*{
+    /* color: violet; */
+}
+
+/* 2. ELEMENT SELECTORS */
+
+/* h1{color:red} */
+/* p{background-color: violet;} */
+/* a{color:black} */
+
+/* 3. DESCENDANT SELECTORS */
+/* header h1{color:red} */
+/* footer h1{color:orange} */
+
+/* 4. ID SELECTORS 
+#banner h1{color: brown;}
+#about p{background-color: palegreen;}
+*/
+
+/* 5. CLASS SELECTORS */
+.row{width: 500px;}
+
+/* 6. GROUPING SELECTORS */
+h1,h2{color:olive}

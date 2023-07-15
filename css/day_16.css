@@ -1,0 +1,89 @@
+:root{
+    --pc-color:rgb(61,95,0);
+    --pc-light-color:rgb(96,139,20);
+    --sc-color:rgb(255,255,255);
+    --ac-color:rgb(241,241,241);
+}
+
+*{box-sizing: border-box; margin: 0; padding: 0;}
+.container{max-width: 1140px; margin: 0 auto;}
+.row{display: flex; justify-content: space-between; align-items: center;}
+
+body{font-family: sans-serif; color: var(--pc-color); font-size: 1em;}
+
+.m-2{margin: 20px;}
+.m-3{margin: 30px;}
+.mb-2{margin-bottom: 20px;}
+.mb-3{margin-bottom: 30px;}
+.my-2{margin:20px 0;}
+.my-3{margin:30px 0;}
+.my-4{margin:40px 0;}
+.mt-2{margin-top: 20px;}
+.p-1{padding: 10px;}
+.p-2{padding: 20px;}
+
+.py-2{padding:20px 0;}
+.py-3{padding:30px 0;}
+.py-4{padding:40px 0;}
+
+.bg-darkgreen{background-color: var(--pc-color);}
+.bg-lightgreen{background-color: var(--pc-light-color);}
+.bg-ac{background-color: var(--ac-color);}
+.text-green{background-color: var(--pc-color);}
+.text-white{color:var(--sc-color)}
+
+ul {list-style: none;}
+
+/* cols */
+
+.col-3{width: 32%;}
+.col-2{width: 50%;}
+.col-6{width: 60%; margin: 0 auto;}
+.col-8{width: 80%; margin: 0 auto;}
+
+/* align */
+.text-center{text-align: center;}
+
+
+/* buttons */
+.btn{padding: 15px; border-radius: 15px 0 15px 0; background-color: var(--pc-color); color: var(--sc-color); text-decoration: none; text-transform: uppercase; font-weight: 600;}
+
+/* Header */
+.search-form input{
+    width: 200px;
+    height: 32px;
+    border: none;
+    border-bottom: 2px solid var(--sc-color);
+    background-color: var(--pc-color);
+    color: var(--sc-color);
+}
+.search-form span{transform: translateX(-20px);}
+
+/* nav */
+nav ul li a{text-decoration: none; text-transform: uppercase; font-weight: 600; color: var(--pc-light-color); padding: 10px 0;}
+.active,nav ul li a:hover{border-bottom: 2px solid var(--pc-light-color);}
+
+/* banner */
+#banner{background-image: url(../images/assets/banner.jpg); background-repeat: no-repeat;}
+#banner h1{text-transform: uppercase; font-size:3em; font-weight: 800;}
+#banner span{text-transform: capitalize; font-size: 2em; font-weight: 600;}
+#banner .line{height:2px; width: 250px; background-color: var(--pc-color); margin: 20px 0;}
+.banner-content{width:500px}
+
+/* About us */
+.section-heading{position: relative;}
+.section-heading h2{font-size: 2em; font-weight: 600;}
+.section-heading span{font-size: 4em; font-weight: 600; opacity: 0.3; position: absolute; top:-18px; left:402px}
+#aboutus h3{font-size: 2.5em;}
+
+/* service */
+#service span{float: right;}
+#service span.shadow{left: 38%;}
+
+/* #price */
+#price span.shadow{left: 42%;}
+#price h3{font-size: 2em; color: var(--sc-color);}
+#price span.amount{font-size: 3em; font-weight: 600; color: var(--sc-color);}
+#price ul li{padding: 15px 0; font-weight: 600;}
+.price-top{position: relative; overflow: hidden;}
+.hot{position: absolute; background-color: var(--pc-color); color: var(--sc-color); padding: 10px 0 ; width: 100%; transform: rotate(35deg); right:-125px; top:15px}

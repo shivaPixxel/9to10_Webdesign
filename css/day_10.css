@@ -1,0 +1,47 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+html{height: 100%;}
+/*
+.main{width:600px; height:600px; margin: 100px auto; border: 5px solid red; position: relative;}
+.sub-box{width:100px; height: 100px; background-color: green; position: absolute;}
+
+.one{left: -50px; top:-50px; background-color: indianred;}
+.two{right:-50px; top:-50px; background-color: navy;}
+.three{bottom: -50px; left:-50px;}
+.four{right:-50px; bottom: -50px;}
+*/
+
+.sub-box{width:300px; height: 200px;  position: absolute; }
+.one{ background-color: rgba(60,150,200,0.3); z-index: 4 ;}
+.two{background-color: hsla(80,50%,50%,0.5); top:100px; left:100px; z-index: 3}
+.three{background-color: hotpink; top:200px; left:200px; z-index: 2}
+.four{background-color: cadetblue; top:300px; left:300px; z-index: 1}
+p{height: 200px;}
+
+body{
+    /*
+    background-color: royalblue;
+    background-color: #98ee60;
+    background-color: rgb(200,150,50);
+    background-color: hsl(150,50%,30%);
+    background-image: url(../images/logo.png), url(../images/body_bg.png);
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat, repeat;
+
+    background-position: left center;
+    background-position: right top;
+    background-position: right bottom;
+    background-position: right center;
+    background-position: bottom center;
+    background-position: bottom left;
+    background-position: 150px 50px;
+    background-position: right bottom, center;
+    background-size: 10%, contain;
+    background-attachment: fixed;
+    */
+    /* background-image: linear-gradient(45deg, red, yellow, green); */
+    /* background-image: radial-gradient(red, yellow, green); */
+
+    background-image: url(../images/logo.png), url(../images/body_bg.png);   
+    background-blend-mode: color-burn;
+}

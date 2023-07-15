@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.full-bg{background-color: darkcyan; padding: 15px 0;}
+.fixed-center{max-width: 960px; margin: 0 auto;}
+
+.p-left{float: left;}
+.p-right{float: right;}
+
+.cf{clear: both;}
+
+.full-bg a{color:white; text-decoration: none;}
+.full-bg a:hover{text-decoration: underline;}
